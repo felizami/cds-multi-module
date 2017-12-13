@@ -1,0 +1,4 @@
+rootProject.name = 'cds-multi-build'
+include 'cds-client'
+include 'cds-server'
+
