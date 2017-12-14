@@ -1,15 +1,16 @@
 package com.anuz.cdsserver.controller;
 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.stereotype.Controller;
 
-@RestController
-@RequestMapping(value = "/server")
+/**
+ * Created by anuz on 7/12/17.
+ */
+@Controller
 public class DefaultController {
 
-    @RequestMapping(method = RequestMethod.GET)
-    public String defaultController(){
-        return "Module:Server";
-    }
+//    @GetMapping("/")
+//    public String defaultMethod(){
+//        return "index.html";
+//    }
+
 }
